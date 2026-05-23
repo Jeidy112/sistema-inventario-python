@@ -33,7 +33,7 @@ for articulo in inventario:
    # Cálculo de la cantidad a solicitar
     cantidad_pedir = calcular_pedido(stock_actual, stock_minimo)
 
-    # Mostrar información del producto
+    # Mostrar información del articulo
     print(f"Codigo del articulo: {codigo}")
     print(f"Nombre del articulo: {nombre}")
     print(f"Stock actual: {stock_actual}")
